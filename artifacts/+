@@ -1,0 +1,27 @@
+{
+  "context": "SCARCITY",
+  "agents": 60,
+  "episodes": 10,
+  "final": {
+    "efficiency": 0.8575139603669135,
+    "fairness": 0.7379872262016239,
+    "satisfaction": 0.7977505932842688
+  },
+  "converged": true,
+  "recent_window": {
+    "episodes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "efficiency_mean": 0.7650374130573008,
+    "fairness_mean": 0.650341992797195
+  }
+}
