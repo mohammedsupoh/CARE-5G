@@ -1,4 +1,4 @@
-﻿# scripts/stats_compare.py  — label fix + markdown summary
+﻿# scripts/stats_compare.py  — robust, skip zero-variance t-test, write UTF-8 SIG + markdown
 import argparse, json, csv
 from pathlib import Path
 import numpy as np
@@ -42,11 +42,17 @@ def summarize(dir_path: Path):
     return {"eff_mean":eff_m, "eff_std":eff_s, "fair_mean":fair_m, "fair_std":fair_s, "n":min(n1,n2)}
 
 def algo_from_runs_path(p: Path) -> str:
-    # Expect baselines/<algo>/runs  -> return <ALGO>
-    # Or any */<algo>/runs
     if p.name.lower() == "runs":
         return p.parent.name.upper()
     return p.stem.upper()
+
+def _welch_p(A, D):
+    # تجنّب t-test عند صفر تباين أو عينات قليلة
+    if len(A) < 2 or len(D) < 2:
+        return float("nan")
+    if (np.std(A, ddof=1) == 0 and np.std(D, ddof=1) == 0):
+        return float("nan")
+    return float(stats.ttest_ind(A, D, equal_var=False).pvalue)
 
 def test_vs(care_dir: Path, base_dir: Path):
     C, _ = load_vals(care_dir); B, _ = load_vals(base_dir)
@@ -58,8 +64,8 @@ def test_vs(care_dir: Path, base_dir: Path):
             out[key] = {"MWU_p": None, "WelchT_p": None}
             continue
         u, p_u = stats.mannwhitneyu(A, D, alternative="two-sided")
-        t, p_t = stats.ttest_ind(A, D, equal_var=False)
-        out[key] = {"MWU_p": p_u, "WelchT_p": p_t}
+        p_t = _welch_p(A, D)
+        out[key] = {"MWU_p": float(p_u), "WelchT_p": p_t}
     return out
 
 if __name__ == "__main__":
@@ -79,8 +85,8 @@ if __name__ == "__main__":
 
     rows = []
     md_lines = [
-        "# Baselines vs CARE — Statistical Summary\n",
-        f"- CARE: efficiency={care_sum['eff_mean']:.3f}, fairness={care_sum['fair_mean']:.3f}, n={care_sum['n']}\n",
+        "# Baselines vs CARE — Statistical Summary",
+        f"- CARE: efficiency={care_sum['eff_mean']:.3f}, fairness={care_sum['fair_mean']:.3f}, n={care_sum['n']}",
         "| Baseline | eff_mean | fair_mean | MWU_p_eff | WelchT_p_eff | MWU_p_fair | WelchT_p_fair | n_care | n_base |",
         "|-|-:|-:|-:|-:|-:|-:|-:|-:|",
     ]
@@ -109,15 +115,17 @@ if __name__ == "__main__":
         })
         md_lines.append(
             f"| {algo} | {base_sum['eff_mean']:.3f} | {base_sum['fair_mean']:.3f} | "
-            f"{tests['efficiency']['MWU_p']:.3g} | {tests['efficiency']['WelchT_p']:.3g} | "
-            f"{tests['fairness']['MWU_p']:.3g} | {tests['fairness']['WelchT_p']:.3g} | "
+            f"{tests['efficiency']['MWU_p'] if tests['efficiency']['MWU_p'] is not None else '—'} | "
+            f"{tests['efficiency']['WelchT_p'] if tests['efficiency']['WelchT_p'] is not None else '—'} | "
+            f"{tests['fairness']['MWU_p'] if tests['fairness']['MWU_p'] is not None else '—'} | "
+            f"{tests['fairness']['WelchT_p'] if tests['fairness']['WelchT_p'] is not None else '—'} | "
             f"{care_sum['n']} | {base_sum['n']} |"
         )
 
     if not rows:
         print("[ERROR] No baseline rows to write. Make sure baseline runs exist and contain valid metrics."); raise SystemExit(1)
 
-    with open(args.out, "w", newline="", encoding="utf-8") as f:
+    with open(args.out, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=rows[0].keys())
         writer.writeheader(); writer.writerows(rows)
     Path(args.md).write_text("\n".join(md_lines), encoding="utf-8-sig")

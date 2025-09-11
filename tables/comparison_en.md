@@ -8,4 +8,4 @@
 | IQL  | 0.80 | 0.58 | Lower than CARE on both |
 | PF   | 0.78 | 0.70 | Borderline fairness, lower eff |
 
-> Full stats & p-values: `stats.csv` · `stats.md`
+> Stats (n=5): MWU p≈0.00398 across comparisons; Welch eff p<1e-50; fairness Welch n/a under zero variance.
