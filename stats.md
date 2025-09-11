@@ -1,4 +1,4 @@
-# Baselines vs CARE — Statistical Summary
+﻿# Baselines vs CARE — Statistical Summary
 
 - CARE: efficiency=0.860, fairness=0.740, n=5
 
