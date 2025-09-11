@@ -1,0 +1,15 @@
+﻿{
+  "title": "CARE: Context-Aware Resource Evaluation Framework for 5G Network Slicing",
+  "upload_type": "software",
+  "version": "v1.0.3",
+  "license": "Apache-2.0",
+  "description": "CARE reframes success for 5G/6G network slicing under resource scarcity by balancing efficiency and Jain fairness.",
+  "creators": [
+    { "name": "Sopuh, Mohammed" }
+  ],
+  "keywords": ["5G","Network Slicing","Resource Allocation","MARL","QMIX","Fairness","CARE"],
+  "related_identifiers": [
+    { "relation": "isSupplementedBy", "identifier": "https://github.com/mohammedsubo/CARE-5G/releases" },
+    { "relation": "isCompiledBy", "identifier": "https://github.com/mohammedsubo/CARE-5G" }
+  ]
+}
