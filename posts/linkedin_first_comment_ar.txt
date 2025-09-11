@@ -1,0 +1,4 @@
+﻿🔗 Repo: https://github.com/mohammedsupoh/CARE-5G
+🔗 Validation Pack (Release): راجع تبويب Releases + ZIP + SHA256
+📊 Overview: reports/docs_overview_bilingual.md
+🖼️ Pareto: figs/pareto.png

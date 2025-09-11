@@ -1,0 +1,30 @@
+﻿\section{Results and Scientific Validation}
+We evaluate CARE under the \textsc{Scarcity} scenario with 60 agents and 150 episodes across five random seeds.
+
+\paragraph{Aggregates.}
+\input{../tables/metrics_summary}
+
+\paragraph{Baselines comparison.}
+\input{../tables/comparison}
+
+\paragraph{Pareto front.}
+Figure~\ref{fig:pareto} shows the Efficiency--Fairness trade-off with 95\% CIs. CARE sustains high efficiency while delivering substantially higher fairness than QMIX; PF is borderline on fairness with lower efficiency; VDN/IQL are dominated.
+
+\paragraph{Convergence.}
+We report mean $\pm$95\% CI across seeds for episode-wise trajectories (efficiency, fairness, satisfaction).
+
+\paragraph{Statistical significance.}
+We use Mann--Whitney U and Welch’s t-test; the latter is skipped under zero variance to avoid numerical instability. See \texttt{stats.csv}/\texttt{stats.md}.
+\paragraph{Statistical tests.}
+We use two-sided Mann--Whitney U and Welch’s t-tests (the latter skipped under zero variance, reported as n/a).
+Across all baselines, differences are statistically significant: MWU $p\approx0.00398$ for both efficiency and fairness; 
+Welch’s $p<10^{-50}$ for efficiency. CARE achieves consistently higher fairness.
+\paragraph{Statistical significance (n=5 seeds).}
+We report two-sided Mann--Whitney U (MWU) and Welch’s t-tests; for fairness, Welch’s test is skipped under zero variance (reported as n/a). Results show statistically significant differences for CARE vs.\ all baselines:
+\begin{itemize}
+\item \textbf{QMIX:} eff (MWU $p=0.00398$; Welch $p<10^{-50}$), fair (MWU $p=0.00398$; Welch n/a)
+\item \textbf{VDN:}  eff (MWU $p=0.00398$; Welch $p<10^{-50}$), fair (MWU $p=0.00398$; Welch n/a)
+\item \textbf{IQL:}  eff (MWU $p=0.00398$; Welch $p<10^{-50}$), fair (MWU $p=0.00398$; Welch n/a)
+\item \textbf{PF:}   eff (MWU $p=0.00398$; Welch $p<10^{-50}$), fair (MWU $p=0.00398$; Welch n/a)
+\end{itemize}
+\textbf{Conclusion.} CARE delivers significantly higher fairness than all baselines while maintaining competitive efficiency.

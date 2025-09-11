@@ -1,0 +1,22 @@
+﻿\documentclass[conference]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage[most]{tcolorbox}
+\graphicspath{{../figs/}} % يجعل ../figs مسار الصور الافتراضي
+
+\begin{document}
+\title{CARE-5G: Scientific Validation}
+\maketitle
+
+\input{../tables/metrics_summary}
+\input{../tables/comparison}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{pareto.png}
+  \caption{Pareto: Efficiency vs. Fairness (95\% CI). CARE sustains high efficiency while delivering substantially higher fairness than QMIX; PF reaches borderline fairness with lower efficiency; VDN/IQL are dominated.}
+  \label{fig:pareto}
+\end{figure}
+
+\end{document}
