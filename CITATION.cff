@@ -1,8 +1,18 @@
 ﻿cff-version: 1.2.0
 title: "CARE-5G: Fairness-Aware Resource Allocation for 5G"
 authors:
-  - family-names: Suboh
-    given-names: Mohammed
-repository-code: "https://github.com/mohammedsuboh/CARE-5G"
-keywords: [5G, fairness, network slicing, MARL, resource allocation]
-license: MIT
+  - family-names: Supoh
+    given-names: Mohammed Hifze
+version: v1.0.3
+doi: 10.5281/zenodo.17102480
+date-released: 2025-09-12
+preferred-citation:
+  type: software
+  title: "CARE-5G: Fairness-Aware Resource Allocation for 5G"
+  authors:
+    - family-names: Supoh
+      given-names: Mohammed Hifze
+version: v1.0.3
+doi: 10.5281/zenodo.17102480
+url: https://doi.org/10.5281/zenodo.17102480
+
