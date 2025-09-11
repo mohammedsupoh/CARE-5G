@@ -20,3 +20,6 @@ posts/*.pdf
 posts/*.pdf
 
 posts/*.pdf
+
+# backups
+*.bak
