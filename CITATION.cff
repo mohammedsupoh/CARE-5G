@@ -24,3 +24,13 @@ keywords:
   - QMIX
   - Fairness
   - CARE
+
+preferred-citation:
+  type: article
+  title: "CARE: Context-Aware Resource Evaluation Framework for 5G Network Slicing"
+  authors:
+    - family-names: "Sopuh"
+      given-names: "Mohammed"
+  journal: "IEEE Transactions on Network and Service Management"
+  year: 2025
+  notes: "Under review"
