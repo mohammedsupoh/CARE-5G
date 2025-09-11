@@ -12,3 +12,5 @@ post_pack.zip
 
 # Local aggregates dropped in root
 /aggregate.json
+
+posts/*.pdf
