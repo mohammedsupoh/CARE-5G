@@ -1,4 +1,6 @@
-﻿<!-- CITATION-START -->
+﻿[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17102480.svg)](https://doi.org/10.5281/zenodo.17102480)
+
+<!-- CITATION-START -->
 ## Cite this work
 
 If you use this repository, please cite:
@@ -16,4 +18,5 @@ If you use this repository, please cite:
 }
 ```
 <!-- CITATION-END -->
+
 
