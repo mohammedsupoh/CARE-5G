@@ -1,4 +1,4 @@
-\# CARE: Context-Aware Resource Evaluation Framework for 5G Network Slicing
+﻿\# CARE: Context-Aware Resource Evaluation Framework for 5G Network Slicing
 
 
 
@@ -8,15 +8,15 @@
 
 
 
-\## 🎯 Redefining Success in Resource-Constrained 5G Networks
+\## ðŸŽ¯ Redefining Success in Resource-Constrained 5G Networks
 
 
 
 CARE adapts success metrics by context. In \*\*SCARCITY\*\* (60 agents), it delivers:
 
-\- \*\*Efficiency:\*\* 85.8% (≥80% target) ✅
+\- \*\*Efficiency:\*\* 85.8% (â‰¥80% target) âœ…
 
-\- \*\*Fairness:\*\* 73.8% (≥70% target) ✅
+\- \*\*Fairness:\*\* 73.8% (â‰¥70% target) âœ…
 
 \- \*\*Satisfaction:\*\* 79.8%
 
@@ -24,7 +24,7 @@ CARE adapts success metrics by context. In \*\*SCARCITY\*\* (60 agents), it deli
 
 
 
-\## 📊 Results vs Traditional QMIX
+\## ðŸ“Š Results vs Traditional QMIX
 
 
 
@@ -40,11 +40,11 @@ CARE adapts success metrics by context. In \*\*SCARCITY\*\* (60 agents), it deli
 
 
 
-\## 📁 Repository Structure
+\## ðŸ“ Repository Structure
 
 
 
-\[!\[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17096625.svg)](https://doi.org/10.5281/zenodo.17096625)
+\[!\[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17096921.svg)](https://doi.org/10.5281/zenodo.17096921)
 
 
 
