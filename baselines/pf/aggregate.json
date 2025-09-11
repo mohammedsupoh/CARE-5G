@@ -1,0 +1,63 @@
+{
+  "context": "SCARCITY",
+  "agents": 60,
+  "episodes": 150,
+  "seeds": [
+    7,
+    42,
+    99,
+    123,
+    2025
+  ],
+  "n_seeds": 5,
+  "aggregate": {
+    "efficiency_mean": 0.78,
+    "efficiency_ci95": [
+      0.78,
+      0.78
+    ],
+    "fairness_mean": 0.7,
+    "fairness_ci95": [
+      0.7,
+      0.7
+    ],
+    "satisfaction_mean": 0.4,
+    "satisfaction_ci95": [
+      0.4,
+      0.4
+    ],
+    "converged_rate": 1.0
+  },
+  "per_seed": [
+    {
+      "efficiency": 0.78,
+      "fairness": 0.7,
+      "satisfaction": 0.4,
+      "converged": true
+    },
+    {
+      "efficiency": 0.78,
+      "fairness": 0.7,
+      "satisfaction": 0.4,
+      "converged": true
+    },
+    {
+      "efficiency": 0.78,
+      "fairness": 0.7,
+      "satisfaction": 0.4,
+      "converged": true
+    },
+    {
+      "efficiency": 0.78,
+      "fairness": 0.7,
+      "satisfaction": 0.4,
+      "converged": true
+    },
+    {
+      "efficiency": 0.78,
+      "fairness": 0.7,
+      "satisfaction": 0.4,
+      "converged": true
+    }
+  ]
+}
