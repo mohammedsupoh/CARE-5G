@@ -22,3 +22,11 @@ CARE adapts success metrics by context. In **SCARCITY** (60 agents), it delivers
 ## Citation
 See **BibTeX**: [docs/citation.bib](docs/citation.bib)
 
+<!-- Badges -->
+[![CI](https://github.com/mohammedsupoh/CARE-5G/actions/workflows/validate_artifacts.yml/badge.svg)](https://github.com/mohammedsupoh/CARE-5G/actions/workflows/validate_artifacts.yml)
+[![Release](https://img.shields.io/github/v/release/mohammedsupoh/CARE-5G?label=Release)](https://github.com/mohammedsupoh/CARE-5G/releases)
+
+## Quick Links
+- **Overview:** https://github.com/mohammedsupoh/CARE-5G/blob/main/reports/overview.md
+- **Pareto (95% CI):** https://github.com/mohammedsupoh/CARE-5G/blob/main/figs/pareto.png?raw=1
+- **Stats:** https://github.com/mohammedsupoh/CARE-5G/blob/main/stats.csv
