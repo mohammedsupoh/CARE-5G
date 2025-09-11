@@ -24,27 +24,15 @@ CARE adapts success metrics by context. In \*\*SCARCITY\*\* (60 agents), it deli
 
 
 
-\## ðŸ“Š Results vs Traditional QMIX
+## 📊 Results vs Traditional QMIX
+| Metric       | Traditional QMIX | CARE    | Improvement |
+|--------------|------------------:|--------:|------------:|
+| Efficiency   | 72%               | **85.8%** | +13.8%     |
+| Fairness     | 58%               | **73.8%** | +15.8%     |
+| Satisfaction | 65%               | **79.8%** | +14.8%     |
 
-
-
-| Metric | Traditional | CARE | Improvement |
-
-|--------|------------|------|-------------|
-
-| Efficiency | 72% | 85.8% | +13.8% |
-
-| Fairness | 58% | 73.8% | +15.8% |
-
-| Satisfaction | 65% | 79.8% | +14.8% |
-
-
-
-\## ðŸ“ Repository Structure
-
-
-
-\[!\[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17096921.svg)](https://doi.org/10.5281/zenodo.17096921)
+## 📁 Repository Structure
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17096921.svg)](https://doi.org/10.5281/zenodo.17096921)
 
 
 
