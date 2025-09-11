@@ -42,3 +42,9 @@ CARE adapts success metrics by context. In \*\*SCARCITY\*\* (60 agents), it deli
 
 \## 📁 Repository Structure
 
+
+
+\[!\[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17096625.svg)](https://doi.org/10.5281/zenodo.17096625)
+
+
+
