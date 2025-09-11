@@ -18,3 +18,7 @@ CARE adapts success metrics by context. In **SCARCITY** (60 agents), it delivers
 | Satisfaction | 65%              | **79.8%** | +14.8%     |
 
 ## 📁 Repository Structure
+
+## Citation
+See **BibTeX**: [docs/citation.bib](docs/citation.bib)
+
