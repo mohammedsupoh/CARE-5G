@@ -4,19 +4,13 @@ title: "CARE: Context-Aware Resource Evaluation Framework for 5G Network Slicing
 version: "v1.0.0"
 date-released: "2025-09-11"
 authors:
-  - family-names: "Hifze"
+  - family-names: "sopuh"
     given-names: "Mohammed"
-    affiliation: "Istanbul Technical University"
-    email: "mhifze@itu.edu.tr"
-  - family-names: "Shayea"
-    given-names: "Ibraheem"
-    affiliation: "Istanbul Technical University"
-  - family-names: "Ergen"
-    given-names: "Mustafa"
-    affiliation: "Istanbul Technical University"
+    affiliation: "Yarmouk University"
+    email: "mohammed.sopuh7@gmail.com"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.XXXXXXX"   # Replace after Zenodo release
+      value: "10.5281/zenodo.17096625"
 repository-code: "https://github.com/mohammedsubo/CARE-5G"
 license: "Apache-2.0"
 keywords: ["5G","Network Slicing","Resource Allocation","MARL","QMIX","Fairness","CARE"]
