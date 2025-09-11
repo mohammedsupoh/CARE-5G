@@ -8,7 +8,7 @@ If you use this repository, please cite:
 **DOI:** https://doi.org/10.5281/zenodo.17102480
 
 ```bibtex
-@software{CARE5G_Supoh_v1.0.3,
+@software{CARE5G_Supoh_v1_0_3,
   author  = {Supoh, Mohammed Hifze},
   title   = {CARE-5G: Fairness-Aware Resource Allocation for 5G},
   version = {v1.0.3},
@@ -18,5 +18,6 @@ If you use this repository, please cite:
 }
 ```
 <!-- CITATION-END -->
+
 
 
