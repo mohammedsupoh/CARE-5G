@@ -1,36 +1,8 @@
 ﻿cff-version: 1.2.0
-message: "If you use CARE in your research, please cite this release."
-title: "CARE: Context-Aware Resource Evaluation Framework for 5G Network Slicing"
-version: "v1.0.2"
-date-released: "2025-09-11"
-
+title: "CARE-5G: Fairness-Aware Resource Allocation for 5G"
 authors:
-  - family-names: "Sopuh"
-    given-names: "Mohammed"
-    email: "mohammed.sopuh7@gmail.com"
-
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.17096625"
-
-repository-code: "https://github.com/mohammedsubo/CARE-5G"
-license: "Apache-2.0"
-
-keywords:
-  - 5G
-  - Network Slicing
-  - Resource Allocation
-  - MARL
-  - QMIX
-  - Fairness
-  - CARE
-
-preferred-citation:
-  type: article
-  title: "CARE: Context-Aware Resource Evaluation Framework for 5G Network Slicing"
-  authors:
-    - family-names: "Sopuh"
-      given-names: "Mohammed"
-  journal: "IEEE Transactions on Network and Service Management"
-  year: 2025
-  notes: "Under review"
+  - family-names: Suboh
+    given-names: Mohammed
+repository-code: "https://github.com/mohammedsuboh/CARE-5G"
+keywords: [5G, fairness, network slicing, MARL, resource allocation]
+license: MIT
