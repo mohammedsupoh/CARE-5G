@@ -1,5 +1,5 @@
 ﻿# CARE: Context-Aware Resource Evaluation Framework for 5G Network Slicing
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17096921.svg)](https://doi.org/10.5281/zenodo.17096921)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17102480.svg)](https://doi.org/10.5281/zenodo.17102480)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)](https://python.org)
 
@@ -39,3 +39,4 @@ We report two-sided Mann–Whitney U (MWU) and Welch’s t-tests. For fairness, 
 - **PF:**   eff (MWU p=0.00398; Welch p<1e-50), fair (MWU p=0.00398; Welch n/a)
 
 **Conclusion.** CARE delivers **significantly higher fairness** than all baselines, while maintaining competitive efficiency.
+
