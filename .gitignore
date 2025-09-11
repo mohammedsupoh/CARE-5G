@@ -1,3 +1,14 @@
 CARE-complete.zip 
 *.pyc 
 __pycache__/ 
+# Runtime / experiments
+runs/
+baselines/*/seed_*/
+**/train_log.txt
+
+# Temp packs/exports
+post_pack/
+post_pack.zip
+
+# Local aggregates dropped in root
+/aggregate.json
