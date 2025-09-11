@@ -30,3 +30,12 @@ See **BibTeX**: [docs/citation.bib](docs/citation.bib)
 - **Overview:** https://github.com/mohammedsupoh/CARE-5G/blob/main/reports/overview.md
 - **Pareto (95% CI):** https://github.com/mohammedsupoh/CARE-5G/blob/main/figs/pareto.png?raw=1
 - **Stats:** https://github.com/mohammedsupoh/CARE-5G/blob/main/stats.csv
+## Statistical significance (n=5 seeds)
+We report two-sided Mann–Whitney U (MWU) and Welch’s t-tests. For fairness, Welch’s test is skipped under zero variance (reported as “n/a”). Results show statistically significant differences for CARE vs. all baselines:
+
+- **QMIX:** eff (MWU p=0.00398; Welch p<1e-50), fair (MWU p=0.00398; Welch n/a)
+- **VDN:**  eff (MWU p=0.00398; Welch p<1e-50), fair (MWU p=0.00398; Welch n/a)
+- **IQL:**  eff (MWU p=0.00398; Welch p<1e-50), fair (MWU p=0.00398; Welch n/a)
+- **PF:**   eff (MWU p=0.00398; Welch p<1e-50), fair (MWU p=0.00398; Welch n/a)
+
+**Conclusion.** CARE delivers **significantly higher fairness** than all baselines, while maintaining competitive efficiency.
