@@ -1,23 +1,25 @@
-﻿[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17102480.svg)](https://doi.org/10.5281/zenodo.17102480)
+﻿# CARE v1.0.0 - SCARCITY (Full Run)
+**Status:** PASS
 
-<!-- CITATION-START -->
-## Cite this work
+## Final Metrics
+- Efficiency: 0.912
+- Fairness:   0.786
+- Satisfaction: 0.306
 
-If you use this repository, please cite:
+## Convergence
+- Achieved: True
+- Episode:  46
 
-**DOI:** https://doi.org/10.5281/zenodo.17102480
+## Files
+- CARE_figure1_convergence.png
+- CARE_figure2_satisfaction.png
+- CARE_figure3_combined_metrics.png
+- CARE_figure4_success_zones.png
+- CARE_table1_final_results.png
+- CARE-v1.0.0-results.zip
 
-```bibtex
-@software{CARE5G_Supoh_v1_0_3,
-  author  = {Supoh, Mohammed Hifze},
-  title   = {CARE-5G: Fairness-Aware Resource Allocation for 5G},
-  version = {v1.0.3},
-  year    = {2025},
-  doi     = {10.5281/zenodo.17102480},
-  url     = {https://doi.org/10.5281/zenodo.17102480}
-}
-```
-<!-- CITATION-END -->
-
-
-
+## Reproduce
+    $env:EPISODES="100"
+    $env:CALIBRATE="1"
+    .\tools\run_smoketest.ps1 -OutDir .\results\CARE_v1.0.0_full
+    .\tools\zip_results.ps1    -Dir      .\results\CARE_v1.0.0_full
