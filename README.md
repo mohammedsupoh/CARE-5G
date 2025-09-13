@@ -28,3 +28,8 @@
 
 
 
+
+## License
+- Code: MIT (see LICENSE)
+- Content (text/figures): CC BY 4.0 (see LICENSE-CONTENT.txt)
+
