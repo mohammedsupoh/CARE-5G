@@ -1,4 +1,6 @@
 ﻿# CARE v1.0.0 - SCARCITY (Full Run)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17113211.svg)](https://doi.org/10.5281/zenodo.17113211)
 **Status:** PASS
 
 ## Final Metrics
@@ -23,5 +25,6 @@
     $env:CALIBRATE="1"
     .\tools\run_smoketest.ps1 -OutDir .\results\CARE_v1.0.0_full
     .\tools\zip_results.ps1    -Dir      .\results\CARE_v1.0.0_full
+
 
 
