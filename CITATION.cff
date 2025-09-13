@@ -1,12 +1,11 @@
 ﻿cff-version: 1.2.0
 title: CARE: Redefining Success in 5G Network Slicing
-version: v1.0.0
+version: v1.1.0
 authors:
   - family-names: Supoh
     given-names: Mohammed Hifze
 date-released: 2025-09-13
-repository-code: https://github.com/mohammedsubo/CARE-5G
+repository-code: https://github.com/mohammedsupoh/CARE-5G
 preferred-citation:
   type: software
   title: CARE-5G
-

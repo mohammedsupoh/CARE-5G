@@ -2,13 +2,13 @@
 **Status:** PASS
 
 ## Final Metrics
-- Efficiency: 0.912
-- Fairness:   0.786
-- Satisfaction: 0.306
+- Efficiency: 0.960
+- Fairness:   0.855
+- Satisfaction: 0.400
 
 ## Convergence
 - Achieved: True
-- Episode:  46
+- Episode:  44
 
 ## Files
 - CARE_figure1_convergence.png
@@ -23,8 +23,3 @@
     $env:CALIBRATE="1"
     .\tools\run_smoketest.ps1 -OutDir .\results\CARE_v1.0.0_full
     .\tools\zip_results.ps1    -Dir      .\results\CARE_v1.0.0_full
-
-
-
-**Long Runs (cal/baseline)**: [download](results/long/CARE-longruns_v1.zip)
-
