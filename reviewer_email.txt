@@ -1,0 +1,20 @@
+﻿Subject: CARE v1.1.0 — updated reproducible package (DOI + GitHub)
+
+EN:
+Dear Reviewer,
+We’ve published CARE v1.1.0 with a stable DOI and a reviewer quick start. This supersedes any previous links.
+- DOI (canonical): https://doi.org/10.5281/zenodo.17113211
+- GitHub release (v1.1.0): https://github.com/mohammedsupoh/CARE-5G/releases/tag/v1.1.0
+- Reviewer quick start: README_REVIEWERS.md (in the repo)
+Key results (SCARCITY, 60 agents): Efficiency ≥ 0.96, Jain ≥ 0.85 (fast convergence).
+
+AR:
+السادة المراجعين،
+تم نشر CARE v1.1.0 مع DOI ثابت وملف مختصر للمراجعين. يُلغى هذا أي روابط سابقة:
+- DOI: https://doi.org/10.5281/zenodo.17113211
+- إصدار GitHub (v1.1.0): https://github.com/mohammedsupoh/CARE-5G/releases/tag/v1.1.0
+- ملخص المراجعين: README_REVIEWERS.md
+النتيجة الأساسية (الندرة، 60 عميل): الكفاءة ≥ 0.96 وعدالة Jain ≥ 0.85 مع تقارب سريع.
+
+Best regards / مع التحية،
+Mohammed Hifze Supoh
