@@ -1,4 +1,4 @@
-﻿# CARE v1.0.0 - SCARCITY (Full Run)
+﻿# CARE: Redefining Success in 5G Network Slicing
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17113211.svg)](https://doi.org/10.5281/zenodo.17113211)
 **Status:** PASS
@@ -32,4 +32,6 @@
 ## License
 - Code: MIT (see LICENSE)
 - Content (text/figures): CC BY 4.0 (see LICENSE-CONTENT.txt)
+
+
 

@@ -1,25 +1,26 @@
-CARE-complete.zip 
-*.pyc 
-__pycache__/ 
-# Runtime / experiments
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+# Jupyter
+.ipynb_checkpoints/
+# OS
+.DS_Store
+Thumbs.db
+# Results & artifacts
+results/*.csv
+results/*.json
+results/*.png
+!results/.gitkeep
+# IDE
+.vscode/
+.idea/
+artifacts/
+results/
 runs/
-baselines/*/seed_*/
-**/train_log.txt
-
-# Temp packs/exports
+release_media/
 post_pack/
-post_pack.zip
-
-# Local aggregates dropped in root
-/aggregate.json
-
-posts/*.pdf
-
-posts/*.pdf
-
-posts/*.pdf
-
-posts/*.pdf
-
-# backups
-*.bak
+posts/
+*.zip
+*.zip.sha256.txt

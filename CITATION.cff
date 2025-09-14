@@ -1,6 +1,6 @@
 ﻿cff-version: 1.2.0
 message: "If you use this repository, please cite the paper."
-title: "CARE: Context-Aware Resource Evaluation Framework for 5G Network Slicing"
+title: "CARE: Redefining Success in 5G Network Slicing""CARE: Redefining Success in 5G Network Slicing""CARE: Redefining Success in 5G Network Slicing"
 authors:
   - family-names: "Supoh"
     given-names: "Mohammed Hifze"
@@ -11,3 +11,5 @@ identifiers:
     value: "10.5281/zenodo.17113211"
 license: "MIT"
 repository-code: "https://github.com/mohammedsupoh/CARE-5G"
+
+
